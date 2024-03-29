@@ -1,11 +1,12 @@
 export const data = [
   {
     id: 1,
-    name: "Alexsandro Alex de Souza",
-    img: "https://img.redbull.com/images/c_crop,x_614,y_0,h_2832,w_2265/c_fill,w_450,h_600/q_auto:low,f_auto/redbullcom/2016/12/25/1331836499864_2/alex-de-souza-fenerbahce",
-    statistics: ["454 Matches", "204 Goals", "168 Assists", "12 Cups"],
-    profile: "https://www.transfermarkt.com.tr/alex/profil/spieler/18537",
-    official_career: "1994-2015",
+    name: "Lionel Messi",
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Lionel_Messi_20180626.jpg/220px-Lionel_Messi_20180626.jpg",
+    statistics: ["810 Matches", "689 Goals", "309 Assists", "36 Cups"],
+    profile:
+      "https://www.transfermarkt.com.tr/lionel-messi/profil/spieler/28003",
+    official_career: "2004-Present",
   },
   {
     id: 2,
