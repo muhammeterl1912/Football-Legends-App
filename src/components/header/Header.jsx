@@ -5,8 +5,8 @@ import logo from "../../assets/logo.png";
 const Header = () => {
   return (
     <Container>
-      <Image src={logo} width="200px" />
-      <h1>FOOTBALL LEGENDS</h1>
+      <Image src={logo} width="200px" /><br />
+      <h1 className="my-2 title">FOOTBALL LEGENDS</h1>
     </Container>
   );
 };
