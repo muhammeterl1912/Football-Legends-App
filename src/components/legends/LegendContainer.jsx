@@ -1,25 +1,20 @@
-import React from "react";
+import React, { useState } from "react";
 import Form from "react-bootstrap/Form";
-import { Container, Row, Col } from "react-bootstrap";
-import Card from "react-bootstrap/Card";
-import Button from "react-bootstrap/Button";
+import { Container, Row, Col, Card, Button } from "react-bootstrap";
 import { data } from "../../helpers/data";
+import LegendCard from "../legendCard";
 
 const LegendContainer = () => {
+//   const [show, setShow] = useState(false);
+
   return (
     <div>
-      <Form.Control type="search" placeholder="Search a Legend" />
-      <Container>
+      <Form.Control type="search" placeholder="Search a Legend... " />
+      <Container className="mt-3">
         <Row xs={1} md={2} lg={3}>
           {data.map((legends) => (
-            <Col>
-              <Card style={{ width: "18rem" }}>
-                <Card.Img variant="top" src={legends.img} />
-                <Card.Header>
-                  <Card.Title>{legends.name}</Card.Title>
-                </Card.Header>
-                <ul className="m-auto">{legends.statistics.map((item => <li className="list-unstyled h5 text-start">{item}</li>))}</ul>
-              </Card>
+            <Col key={legends.id}>
+              <LegendCard legends={legends} />
             </Col>
           ))}
         </Row>
