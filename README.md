@@ -4,7 +4,7 @@ This application is a React-based football legends application. Users can search
 
 ## Demo
 
-You can access the live demo [here](https://sweet-mooncake-a3babb.netlify.app/).
+👉 You can access the live demo [here](https://sweet-mooncake-a3babb.netlify.app/).
 
 ## Features
 
